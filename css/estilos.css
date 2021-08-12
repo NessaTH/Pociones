@@ -1,0 +1,16 @@
+body{
+    background-image: url("../media/bg.png");
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.card{
+    width: 70%;
+    margin: auto;
+}
+
+@media all and (min-width: 768px){
+    body{
+        margin-top: 5%;
+    }
+}
